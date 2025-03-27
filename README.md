@@ -21,4 +21,5 @@ BLOCK18 WORKSHOP: Writing Test Specifications
   - When a user [adds item to shopping cart], [item & price (object) gets added to array]
   - When a user [removes an item from cart], [item {object} gets removed from array]
   - When a user [checks shopping cart], [all items displayed w/ individual price & total price]
-  - When a user [tries to ], []
+  - When a user [tries to checkout an empty cart], [error for no items added to cart]
+  - When a user [selects checkout with items selected], [a new screen for payment options appear]
